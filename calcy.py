@@ -38,9 +38,9 @@ def fncExit():
     if fncExit > 0:
         root.destroy()
         return
-def fncStandard():
-    root.resizable(width = False, height=False)
-    root.geometry("500x560+0+0")
+#def fncStandard():
+#    root.resizable(width = False, height=False)
+#    root.geometry("500x560+0+0")
     
 def fncScientific():
     root.resizable(width = False, height=False)
