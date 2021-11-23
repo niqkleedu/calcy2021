@@ -12,10 +12,6 @@ root.geometry("510x560+0+0")
 calc = Frame(root)
 calc.grid()
 
-
-#Testing for conflict
-conflictVar = "hello world"
-
 class Calc():
     def __init__(self):
         self.total =0
@@ -53,7 +49,7 @@ class Calc():
         txtDisplay.insert(0, value)
 
     def valid_function(self):
-        if self.op == "+test":
+        if self.op == "+":
             self.total += self.current
         if self.op == "-":
             self.total -= self.current
