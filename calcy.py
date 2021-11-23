@@ -188,17 +188,29 @@ bottonTan = Button(calc, text="sin", width=6, height=2, font=('arial', 20, 'bold
 #labelDisplay.grid(row = 0, column = 4, columnspan =4)
 
 
+<<<<<<< HEAD
 
 #functions
 
+=======
+#===========Menu Area==============
+#function to exit
+>>>>>>> 10d28d805df47d2b9b601a147a6978da82d8a603
 def fncExit():
     fncExit = tkinter.messagebox.askyesno("Scientific Calculator","Confirm Exit")
     if fncExit > 0:
         root.destroy()
         return
+<<<<<<< HEAD
 def fncStandard():
     root.resizable(width = False, height=False)
     root.geometry("510x560+0+0")
+=======
+#function to show the operations
+def fncStandard():
+    root.resizable(width = False, height=False)
+    root.geometry("500x560+0+0")
+>>>>>>> 10d28d805df47d2b9b601a147a6978da82d8a603
     
 def fncScientific():
     root.resizable(width = False, height=False)
