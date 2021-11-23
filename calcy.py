@@ -32,15 +32,16 @@ for j in range(2,5):
 
 
 #===========Menu Area==============
-
+#function to exit
 def fncExit():
     fncExit = tkinter.messagebox.askyesno("Scientific Calculator","Confirm Exit")
     if fncExit > 0:
         root.destroy()
         return
-#def fncStandard():
-#    root.resizable(width = False, height=False)
-#    root.geometry("500x560+0+0")
+#function to show the operations
+def fncStandard():
+    root.resizable(width = False, height=False)
+    root.geometry("500x560+0+0")
     
 def fncScientific():
     root.resizable(width = False, height=False)
